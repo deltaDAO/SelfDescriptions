@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "ids": "https://w3id.org/idsa/core/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gax-resource": "http://w3id.org/gaia-x/resource#",
+    "ex": "http://example.org/"
+  },
+  "@id": "ex:CPU-Node-2",
+  "@type": "gax-resource:KubernetesNode",
+  "gax-resource:hasCPU": "gax:CPU",
+  "gax-resource:hasHarddrive": "gax:SSD",
+  "gax-resource:hasNIC": { 
+    "@type": "gax-core:Measure",
+      "gax-core:hasValue": {
+        "@value": "2.0",
+        "@type": "xsd:float"
+      },
+    "gax-core:hasUnit": "NIC"
+  },
+  "gax-resource:hasRamsize": { 
+    "@type": "gax-core:Measure",
+      "gax-core:hasValue": {
+        "@value": "4.0",
+        "@type": "xsd:float"
+      },
+    "gax-core:hasUnit": "GB"
+  },
+  "gax-resource:hasLocation": "France",
+  "gax-resource:hasJurisdiction": "France",
+  "gax-resource:hasName": "nodepool-820c6f47-d8e0-4892-a1-node-53bf7a",
+  "gax-resource:hasDescription": "A kubernetes node. Kublet v1.22.2, OS Image: Ubuntu 18.04.6 LTS",
+  "gax-resource:isOperatedBy": "gax:OHV"
+}
+  
