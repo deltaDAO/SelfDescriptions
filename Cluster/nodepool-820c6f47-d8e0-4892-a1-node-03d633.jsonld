@@ -7,9 +7,9 @@
     "schema": "http://schema.org/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "gax-resource": "http://w3id.org/gaia-x/resource#",
-    "ex": "http://example.org/"
+    "ex": "https://github.com/deltaDAO/SelfDescriptions/blob/main/Cluster/"
   },
-  "@id": "ex:CPU-Node-1",
+  "@id": "ex:nodepool-820c6f47-d8e0-4892-a1-node-03d633.jsonld",
   "@type": "gax-resource:KubernetesNode",
   "gax-resource:hasCPU": "gax:CPU",
   "gax-resource:hasHarddrive": "gax:SSD",
