@@ -9,7 +9,7 @@
     "dcat": "http://www.w3.org/ns/dcat#",
     "gax-resource": "http://w3id.org/gaia-x/resource#"
   },
-  "@id": "GITLAB/ServiceOffering-p35xcgco78edmaeo3gka8h",
+  "@id": "https://github.com/deltaDAO/SelfDescriptions/Demonstrator-Algorithm-Weather-Data-SensorDataServiceOffering-instance.json",
   "@type": "gax-service:ServiceOffering",
   "gax-service:hasServiceTitle": {
     "@value": "Demonstrator Algorithm 🧮 Weather Data / Sensor Data",
