@@ -7,9 +7,9 @@
     "schema": "http://schema.org/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "gax-resource": "http://w3id.org/gaia-x/resource#",
-    "ex": "http://delta-dao.com/"
+    "ex": "https://github.com/deltaDAO/SelfDescriptions/edit/main/Cluster/"
   },
-  "@id": "ex:CPU",
+  "@id": "ex:CPU.jsonld",
   "@type": "gax-resource:BareMetalNode",
   "gax-resource:hasProductID": "CPU",
   "gax-resource:hasFrequency": { 
