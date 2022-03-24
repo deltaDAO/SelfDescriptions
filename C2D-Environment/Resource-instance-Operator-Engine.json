@@ -9,7 +9,7 @@
     "dcat": "http://www.w3.org/ns/dcat#",
     "gax-resource": "http://w3id.org/gaia-x/resource#"
   },
-  "@id": "GITLAB/Resource-dnoznf7evlcmkjwutxis5d",
+  "@id": "https://github.com/deltaDAO/SelfDescriptions/C2D-Environment/Resource-dnoznf7evlcmkjwutxis5d",
   "@type": "gax-resource:Resource",
   "dct:title": {
     "@value": "Operator-Engine",
