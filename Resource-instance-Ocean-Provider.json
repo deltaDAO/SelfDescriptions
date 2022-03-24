@@ -9,7 +9,7 @@
     "dcat": "http://www.w3.org/ns/dcat#",
     "gax-resource": "http://w3id.org/gaia-x/resource#"
   },
-  "@id": "GITLAB/Resource-99axjz6qmo6cq2miudgomc",
+  "@id": "https://github.com/deltaDAO/Resource-instance-Ocean-Provider.json",
   "@type": "gax-resource:Resource",
   "dct:title": {
     "@value": "Provider",
