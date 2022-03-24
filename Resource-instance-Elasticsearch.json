@@ -9,7 +9,7 @@
     "dcat": "http://www.w3.org/ns/dcat#",
     "gax-resource": "http://w3id.org/gaia-x/resource#"
   },
-  "@id": "GITLAB/Resource-nsujd0co3na0nx4rx5nh1h",
+  "@id": "https://github.com/deltaDAO/SelfDescriptions/Resource-instance-Elasticsearch.json",
   "@type": "gax-resource:Resource",
   "dct:title": {
     "@value": "Elasticsearch v6.8.17",
