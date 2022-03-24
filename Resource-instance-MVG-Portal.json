@@ -9,7 +9,7 @@
     "dcat": "http://www.w3.org/ns/dcat#",
     "gax-resource": "http://w3id.org/gaia-x/resource#"
   },
-  "@id": "GITLAB/Resource-fgv5fylfkvs7ibdortl9xg",
+  "@id": "https://github.com/deltaDAO/SelfDescriptions/Resource-instance-MVG-Portal.json",
   "@type": "gax-resource:Resource",
   "dct:title": {
     "@value": "MVG-Portal",
