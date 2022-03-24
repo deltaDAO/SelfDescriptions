@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "0": "http://w3id.org/gaia-x/validation#",
+    "gax-service": "http://w3id.org/gaia-x/service#",
+    "dct": "http://purl.org/dc/terms/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gax-node": "http://w3id.org/gaia-x/node#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "gax-resource": "http://w3id.org/gaia-x/resource#"
+  },
+  "@id": "GITLAB/Resource-99axjz6qmo6cq2miudgomc",
+  "@type": "gax-resource:Resource",
+  "dct:title": {
+    "@value": "Provider",
+    "@type": "xsd:string"
+  },
+  "dct:description": {
+    "@value": "Ocean Provider enables on-premise computing by allowing data services to be consumed and a container component to be run by data providers. It is required for remote machine learning to work with \"Compute-to-Data\" functionality. ",
+    "@type": "xsd:string"
+  },
+  "dcat:keyword": {
+    "@value": "Provider",
+    "@type": "xsd:string"
+  },
+  "dcat:theme": {
+    "@value": "Ocean Protocol",
+    "@type": "xsd:string"
+  },
+  "dct:language": {
+    "@value": "Python",
+    "@type": "xsd:string"
+  },
+  "dct:license": {
+    "@value": "Apache-2.0 License",
+    "@type": "xsd:string"
+  },
+  "dct:issued": {
+    "@value": "2022-03-17T22:23:32",
+    "@type": "xsd:dateTimeStamp"
+  }
+}
