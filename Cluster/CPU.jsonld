@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "ids": "https://w3id.org/idsa/core/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gax-resource": "http://w3id.org/gaia-x/resource#",
+    "ex": "http://delta-dao.com/"
+  },
+  "@id": "ex:CPU",
+  "@type": "gax-resource:BareMetalNode",
+  "gax-resource:hasProductID": "CPU",
+  "gax-resource:hasFrequency": { 
+    "@type": "gax-core:Measure",
+      "gax-core:hasValue": {
+        "@value": "1800.0",
+        "@type": "xsd:float"
+      },
+    "gax-core:hasUnit": "GHz"
+  },
+  "gax-resource:hasNumberOfCores": 12,
+  "gax-resource:hasNumberOfThreads": 24
+}
