@@ -1,0 +1,87 @@
+{
+  "selfDescriptionCredential": {
+    "selfDescription": {
+      "@context": {
+        "gx-participant": "http://w3id.org/gaia-x/participant#",
+        "sh": "http://www.w3.org/ns/shacl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+      },
+      "@id": "did:web:wallet.lab.gaia-x.eu:api:did-registry:8c819d724b8e4d0c9c2f133b7db4ae13#8c819d724b8e4d0c9c2f133b7db4ae13",
+      "@type": "gx-participant:LegalPerson",
+      "gx-participant:name": {
+        "@value": "NORSK MARINTEKNISK FORSKNINGSINSTITUTT AS",
+        "@type": "xsd:string"
+      },
+      "gx-participant:legalName": {
+        "@value": "SINTEF OCEAN AS",
+        "@type": "xsd:string"
+      },
+      "gx-participant:registrationNumber": {
+        "@value": "NOFOR.937357370",
+        "@type": "xsd:string"
+      },
+      "gx-participant:leiCode": {
+        "@value": "549300XDNWF9FOR0O908",
+        "@type": "xsd:string"
+      },
+      "gx-participant:headquarterAddress": {
+        "@type": "gx-participant:Address",
+        "gx-participant:country": {
+          "@value": "NO",
+          "@type": "xsd:string"
+        },
+        "gx-participant:street-address": {
+          "@value": "Otto Nielsens veg 10",
+          "@type": "xsd:string"
+        },
+        "gx-participant:postal-code": {
+          "@value": "7052",
+          "@type": "xsd:string"
+        },
+        "gx-participant:locality": {
+          "@value": "Trondheim",
+          "@type": "xsd:string"
+        }
+      },
+      "gx-participant:legalAddress": {
+        "@type": "gx-participant:Address",
+        "gx-participant:country": {
+          "@value": "NO",
+          "@type": "xsd:string"
+        },
+        "gx-participant:street-address": {
+          "@value": "Otto Nielsens veg 10",
+          "@type": "xsd:string"
+        },
+        "gx-participant:postal-code": {
+          "@value": "7052",
+          "@type": "xsd:string"
+        },
+        "gx-participant:locality": {
+          "@value": "Trondheim",
+          "@type": "xsd:string"
+        }
+      }
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-06-14T14:44:29.459Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:compliance.lab.gaia-x.eu",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Bt1UzTd3wSJPlidujJbsi-OAQylZFs9Cf6OeUYlsgUS-Ue-3EYtXuhrA_QsrzGvVxi2JS9Ssj9JayvD7LtYldVhB-KZriiSk07uxEyKsG2pnEhS5wgagiBGbtZGyhiTdfwo_dJLEwZjV3AG5gbdAWl8-IKIjijBnqDq9zErlRHhv7sOnFUQiy7ndvaQz_oPJI0phOxx6e8Q2JaJDehDZ2n-GhoE7XxcoDbgJ7ZzYF9VgDTiRK6BLy5_bTd_4Gzzaf8i5Is1LBcWo-wz2Zf2K7t6twKFe1dg5XByNXmdElmWlvt8whpdn9BYLkMFFE3tCNrku-pH0B1cWAE9XD5xEkA"
+    }
+  },
+  "complianceCredential": {
+    "credentialSubject": {
+      "id": "did:web:wallet.lab.gaia-x.eu:api:did-registry:8c819d724b8e4d0c9c2f133b7db4ae13#8c819d724b8e4d0c9c2f133b7db4ae13",
+      "hash": "6499924caced78261a8195e4f1c31b1647403fe3324f2f60dc356821a7a7baf5"
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-06-14T14:45:43.837Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eV_pzJeXUHrknhU9dwi4-MVtWLG20EG8EVhJ2ySbQ7Pp9hSFA07hgPG7Mf06sTnP7Gm99ugJwn_vsYhZfXL1S1qLNAcsQv7JB7K8Qvfb5T86cwlLH3vcbwmEGO3z5rj2aP9sDSws8Ta-UQAdb0UMC829f82lr-uWdJVj_LzOayiZPFRDmHJAez9-GhypFzOv-b_uW4IBYD1z7nMShTyeJ_vxCiFHV77qXCDb5shdUq-91I9lzEbiE5_dAhDY4k70fo-slKlxlEr8Cq4ZiShTdhrZ0GSnIE6qlk3zLNjQ-BN4nq-UyT-r4HmQs3pHAoTwBzmpXD7lv884sFp7-Nmdcw",
+      "verificationMethod": "did:web:compliance.lab.gaia-x.eu"
+    }
+  }
+}
