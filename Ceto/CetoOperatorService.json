@@ -1,0 +1,61 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "http://www.w3.org/ns/shacl#",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://w3id.org/gaia-x/resource#",
+      "http://w3id.org/gaia-x/participant#",
+      "http://w3id.org/gaia-x/service-offering#"
+    ],
+    "@type": [
+      "VerifiableCredential",
+      "ServiceOfferingExperimental"
+    ],
+    "@id": "https://delta-dao.com/.well-known/CetoOperatorService.json",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/CetoOperatorService.json",
+      "gx-service-offering:providedBy": {
+        "@type": "xsd:string",
+        "@value": "https://delta-dao.com/.well-known/participant.json"
+      },
+      "gx-service-offering:name": {
+        "@type": "xsd:string",
+        "@value": "Ocean Operator Engine"
+      },
+      "gx-service-offering:description": {
+        "@type": "xsd:string",
+        "@value": "The Operator-Service manages the Compute-to-Data workflow, communicates with the data provider, and performs the computation."
+      },
+      "gx-service-offering:TermsAndConditions": {
+        "gx-service-offering:url": {
+          "@value": "https://raw.githubusercontent.com/oceanprotocol/operator-service/v4main/LICENSE",
+          "@type": "xsd:string"
+        },
+        "gx-service-offering:hash": {
+          "@value": "dc6b68d13b8cf959644b935f1192b02c71aa7a5cf653bd43b4480fa89eec8d4d3f16a2278ec8c3b40ab1fdb233b3173a78fd83590d6f739e0c9e8ff56c282557",
+          "@type": "xsd:string"
+        }
+      },
+      "gx-service-offering:gdpr": [
+        {
+          "@type": "xsd:anyURI",
+          "gx-service-offering:imprint": "https://www.delta-dao.com/imprint"
+        },
+        {
+          "@type": "xsd:anyURI",
+          "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy"
+        }
+      ],
+      "gx-service-offering:dependsOn": [
+        {
+          "@type": "xsd:anyURI",
+          "@value": "https://delta-dao.com/.well-known/CetoCluster.json"
+        },
+        {
+          "@type": "xsd:anyURI",
+          "@value": "https://delta-dao.com/.well-known/s3bucket.json"
+        }
+      ]
+    }
+  }
+}
