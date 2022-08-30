@@ -56,6 +56,36 @@
           "@value": "https://delta-dao.com/.well-known/s3bucket.json"
         }
       ]
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-08-30T13:24:52.638Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ewVFLobKAjvEbMmP9gEIO_T5xSltsJZ2mVRyznFwPOGX7PjuPA7bK_GRrPvDg1hLwXI-LEwiOWc3gFTl7P32F-Urux6byaBWFI2re548rnDSh7_pGeKE0obR1gXNlH9j69RddakrMNsi5NJY2ISEpK6VrFOsoRWmpuUPcGVkuToOvPvrGxe_-moisCt6vbasgztIbfcvZcACqptCewsEAa4YoU1SxaBGLylX_8mPQ8Izr_JDiNcXsW65xhspo4NQyI_WyGHJ3CJZB60qJU5sYB-q3Yh2AD2KCXjcalfxAzhuZHFiRWGIcWABgMWr5RkEFNpouSZPk4rFCc4tWVAE4w"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "@type": [
+      "VerifiableCredential",
+      "ServiceOfferingCredentialExperimental"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1661865900225",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2022-08-30T13:25:00.225Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/CetoOperatorService.json",
+      "hash": "3c2384c3b08a36c31ddd133bebecdb122225a3b8c887e2237cab6b3474e230a0"
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-08-30T13:25:00.225Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AJ_8Qz4WsFUGSuM41tgvuiyHS76SwN-GQg-_62ODtebVoFX80mr1Adcp0hCYddKmeXpOF94FMQXi8DxPt2QbHJ6Ybu0-uiFo9qo2XwFRKvQdVWLRHc_RGjFG795eUsoJSgTRluA9XD5ZTrsstM7RslYX1M1VR5jXou2JtKQG2DwgULuPdMRmmYkj9v3bTH1O9Y8iFv2oSQT03gDRS-6CmolAnmafD7NDO3MPb7nMixvkR0yDLukeS60O0wqJkgINkODetdpgxPoxXR55TfvVxuvMylbRrBJqUDN_mvr5pA1nNweQTtDN2zVPQcsd1rt_ACP1Kn__kO2AaCuAHorvSw",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
     }
   }
 }
