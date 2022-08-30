@@ -50,6 +50,36 @@
           "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy"
         }
       ]
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-08-30T13:32:58.347Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZHJmt6CUtb0W0Tm7hzTAYHyFmrp7GXVfCsNeKxxOR2-nolHbdxVDDcjc0ExTfI7T21QNIQZprtB2BBOs--E1GyAIxOQEuKMhvG6-T9JvdaZ7QD1qKhAatPtbRZk77L9cS38L2m5JpoRQU3ChyQ_l_Boe9IcTFOviuGq3hI_UJlsIWWvlWROXRkor7A-YNDH7jZkJ5ebtgypkFxLUMKwrS4BRlfNwbRU3Cv3qQUnI7UHuqD-L6gDLmB3GBnkMfffeu6ULfIM8bL4rsAjrOy004Tvqk2Lo5GiRQGjTL1JOLxNIfqTq0uz2kxo7qxKBRjCWY4QRI74ZZ7MmQO2iqDZUsQ"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "@type": [
+      "VerifiableCredential",
+      "ServiceOfferingCredentialExperimental"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1661866385931",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2022-08-30T13:33:05.932Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/CetoCluster.json",
+      "hash": "bc6a87c099d6eaf7da3e9d0aec7d6f19c782074c77e56a6c9bae09e55d290279"
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-08-30T13:33:05.932Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fi2y2R04ptIdHoXkvFHZEH0W1v8zL2bbnLfRPEBYoJpj-nneSH_L-A8mBuhvIDx0-FOn4RWyvZLX9E2NkhNah6Ip7_yjEqRvmO2J57rps2QTdHTbpGCmhfRptHemOsp18l1BtVB1xFszK1Fg7oiR0AJ9Vtk2FXBwgsfR6d3HlW4AWX7sEiGnIVvmylWmJ11djY1X1980qe1IEkJMAFsq7DS3VDZcp7NJOwPjMGnugHlfQcADzGR31-PIBv0I6vzRaOayM4i6jaDfYhTMg-uBpu0ryXX1CdcKp_Jz1ERfFgW0nWNos7f9hVmAknsw3ZQrU_n8LOUSQM2qIEztKpYDwQ",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
     }
   }
 }
